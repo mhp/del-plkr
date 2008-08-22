@@ -1,0 +1,16 @@
+del-plkr
+========
+
+This project will retrieve a list of del.icio.us bookmarks, tagged
+with the tag 'plkr', and pass them to Plucker to create an offline
+readable version.  The bookmark on del.icio.us will be updated to
+remove the tag 'plkr' once the bookmark has been processed.
+
+The code is heavily based upon DeliciousSnaflr, by Natalie Downe
+(see http://notes.natbat.net/2007/03/06/delicioussnaflr/), and so
+is released under the same license - the MIT license.  See the
+following link for license details:
+http://www.opensource.org/licenses/mit-license.php
+
+At this stage, there is no support for actually invoking Plucker
+on the bookmark!
